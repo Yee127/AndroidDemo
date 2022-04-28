@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#00FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:id="@+id/dock_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/figma"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_album_img_dk"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@mipmap/avatar" />
+                <!--歌曲信息-->
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_song_name_dk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:text="name" />
+                        <TextView
+                            android:id="@+id/tv_singer_name_dk"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:text="singer" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/play_mode"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/cycle"/>
+                    <!--下一曲-->
+                    <ImageButton
+                        android:id="@+id/btn_pre"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/pre" />
+                    <!--播放或暂停-->
+                    <ImageButton
+                        android:id="@+id/btn_play_or_pause"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/play" />
+                    <!--下一曲-->
+                    <ImageButton
+                        android:id="@+id/btn_next"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/next" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--        进度条部分      -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <!--播放时间-->
+                <TextView
+                    android:id="@+id/tv_play_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="00:00"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/time_seekBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:maxHeight="5dp"
+                    android:minHeight="2dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/gradient_par"
+                    android:thumb="@drawable/thumb" />
+                <!--总时间-->
+                <TextView
+                    android:id="@+id/tv_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="00:00"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

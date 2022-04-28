@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".demo825_OutputTime.MainActivity825">
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="当 前 时 间"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/show_time_btn"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="当 前 时 间2"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/show_time_btn2"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="当 前 时 间（继承Binder类）"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/show_time_btn3"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="当 前 时 间（使用Messenger类）"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/show_time_btn4"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/login"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:background="@drawable/edittext_border"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="请输入用户名..."
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:id="@+id/password_edit"
+        android:background="@drawable/edittext_border"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="8dp"
+        android:hint="请输入密码..."
+        />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_border"
+        android:text="登   录"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

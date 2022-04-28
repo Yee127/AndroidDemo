@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LearnDemo</string>
+    <string name="button">button</string>
+    <string name="button2">Button</string>
+    <string name="red_team">Red Team</string>
+    <string name="blue_team">Blue Team</string>
+    <string name="key_blue">KEY_B</string>
+    <string name="key_red">KEY_R</string>
+    <string name="my_data">MY_DATA</string>
+</resources>

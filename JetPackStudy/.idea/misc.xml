@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="bottomnavigationdemo/src/main/res/layout/activity_bottom_nav_main.xml" value="0.42346014492753625" />
+        <entry key="bottomnavigationdemo/src/main/res/layout/first_fragment.xml" value="0.42346014492753625" />
+        <entry key="bottomnavigationdemo/src/main/res/layout/second_fragment.xml" value="0.29739583333333336" />
+        <entry key="bottomnavigationdemo/src/main/res/layout/third_fragment.xml" value="0.29739583333333336" />
+        <entry key="bottomnavigationdemo/src/main/res/menu/main_menu.xml" value="0.375" />
+        <entry key="databindingdemo/src/main/res/layout/activity_main.xml" value="0.2151268115942029" />
+        <entry key="databindingdemo/src/main/res/layout/activity_main_sub.xml" value="0.45" />
+        <entry key="imgfromnet/src/main/res/layout/activity_image_main.xml" value="0.29739583333333336" />
+        <entry key="lifecycle/src/main/res/layout/activity_main.xml" value="0.2115036231884058" />
+        <entry key="lifecycle/src/main/res/layout/activity_main_service.xml" value="0.25" />
+        <entry key="paging/src/main/res/layout/activity_paging_main.xml" value="0.45" />
+        <entry key="paging/src/main/res/layout/cell.xml" value="0.29528985507246375" />
+        <entry key="roomdemo/src/main/res/layout/activity_room_main.xml" value="0.27219202898550726" />
+        <entry key="roomdemo/src/main/res/layout/activity_room_main2.xml" value="0.375" />
+        <entry key="roomdemo/src/main/res/layout/cell_card.xml" value="0.375" />
+        <entry key="roomdemo/src/main/res/layout/cell_normal.xml" value="0.2509057971014493" />
+        <entry key="roomdemo/src/main/res/layout/fragment_add.xml" value="0.3482789855072464" />
+        <entry key="roomdemo/src/main/res/layout/fragment_students.xml" value="0.3482789855072464" />
+        <entry key="roomdemo/src/main/res/menu/menu.xml" value="0.29739583333333336" />
+        <entry key="twowaybinding/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="twowaybinding/src/main/res/layout/activity_recycle_main.xml" value="0.28940217391304346" />
+        <entry key="twowaybinding/src/main/res/layout/activity_two_main.xml" value="0.2593340060544904" />
+        <entry key="twowaybinding/src/main/res/layout/activity_way2_main.xml" value="0.28940217391304346" />
+        <entry key="twowaybinding/src/main/res/layout/item.xml" value="0.28940217391304346" />
+        <entry key="viewmodel/src/main/res/layout/activity_binding_main.xml" value="0.2151268115942029" />
+        <entry key="viewmodel/src/main/res/layout/activity_main.xml" value="0.45" />
+        <entry key="viewmodel/src/main/res/layout/activity_main2.xml" value="0.2151268115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

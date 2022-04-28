@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    android:background="#F2F2F7">
+
+    <FrameLayout
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="设置"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"/>
+        <ListView
+            android:background="@drawable/cus"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/setting_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="2"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        tools:ignore="Suspicious0dp" />
+
+</LinearLayout>

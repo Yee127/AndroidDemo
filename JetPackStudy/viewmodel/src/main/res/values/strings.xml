@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">viewmodel</string>
+    <string name="b">+</string>
+    <string name="textview">TextView</string>
+</resources>

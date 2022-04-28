@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".demo715.MainActivity715_Runnable">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过实现Runnable接口来创建线程"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/StartThread_btn"
+        android:background="@drawable/btn"
+        android:textSize="20dp"
+        android:text="开 始 线 程"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/interruptedThread_btn"
+        android:background="@drawable/btn"
+        android:textSize="20dp"
+        android:text="中 断 线 程"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="200dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chapter5</string>
+    <string name="title">关于中科创达</string>
+    <string name="company">中科创达科技有限公司</string>
+    <string name="url">公司网址：https://www.thundersoft.com/</string>
+    <string name="introduce">中科创达是领先的智能操作系统产品和技术提供商。依托智能操作系统、AI和5G技术，提供智能手机、智能物联网、智能网联汽车、智能行业等领域的一站式解决方案和服务。</string>
+
+    <string name="itemTitle1">Copy</string>
+    <string name="itemTitle2">Cut</string>
+    <string name="itemTitle3">Paste</string>
+    <string name="edittext">Please enter your search keywords</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+<!--        <variable-->
+<!--            name="songModel"-->
+<!--            type="com.example.myapplication.model.SongModel" />-->
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gradient_color"
+        tools:context=".ui.local_music.LocalMusicFragment"
+        android:orientation="vertical">
+        <!--扫描歌曲的布局-->
+        <LinearLayout
+            android:id="@+id/scan_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="225dp"
+                android:layout_height="355dp"
+                android:src="@drawable/music_scan" />
+
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn"
+                android:text="开始扫描"
+                android:textColor="#FFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <!--扫描之后，歌曲的展示和播放布局-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+            <include
+                android:background="#00FFFFFF"
+                android:id="@+id/dock_player"
+                layout="@layout/dock_player"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+    </LinearLayout>
+</layout>

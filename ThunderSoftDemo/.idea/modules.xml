@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ThunderSoftDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/ThunderSoftDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ThunderSoftDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ThunderSoftDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter5/ThunderSoftDemo.chapter5.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter5/ThunderSoftDemo.chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter6/ThunderSoftDemo.chapter6.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter6/ThunderSoftDemo.chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter7/ThunderSoftDemo.chapter7.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter7/ThunderSoftDemo.chapter7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter8/ThunderSoftDemo.chapter8.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter8/ThunderSoftDemo.chapter8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo3_2_4_activity/ThunderSoftDemo.demo3_2_4_activity.iml" filepath="$PROJECT_DIR$/.idea/modules/demo3_2_4_activity/ThunderSoftDemo.demo3_2_4_activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo3_3_4/ThunderSoftDemo.demo3_3_4.iml" filepath="$PROJECT_DIR$/.idea/modules/demo3_3_4/ThunderSoftDemo.demo3_3_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_3_3_3/ThunderSoftDemo.demo_3_3_3.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_3_3_3/ThunderSoftDemo.demo_3_3_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_417_intent/ThunderSoftDemo.demo_417_intent.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_417_intent/ThunderSoftDemo.demo_417_intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogboxdemo/ThunderSoftDemo.dialogboxdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogboxdemo/ThunderSoftDemo.dialogboxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eg3_7_fragment/ThunderSoftDemo.eg3_7_fragment.iml" filepath="$PROJECT_DIR$/.idea/modules/eg3_7_fragment/ThunderSoftDemo.eg3_7_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iconlistdialog/ThunderSoftDemo.iconlistdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/iconlistdialog/ThunderSoftDemo.iconlistdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imgbuttondemo/ThunderSoftDemo.imgbuttondemo.iml" filepath="$PROJECT_DIR$/.idea/modules/imgbuttondemo/ThunderSoftDemo.imgbuttondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewdemo/ThunderSoftDemo.listviewdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewdemo/ThunderSoftDemo.listviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logindemo/ThunderSoftDemo.logindemo.iml" filepath="$PROJECT_DIR$/.idea/modules/logindemo/ThunderSoftDemo.logindemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progress_bar_demo/ThunderSoftDemo.progress_bar_demo.iml" filepath="$PROJECT_DIR$/.idea/modules/progress_bar_demo/ThunderSoftDemo.progress_bar_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slideshowdemo/ThunderSoftDemo.slideshowdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/slideshowdemo/ThunderSoftDemo.slideshowdemo.iml" />
+    </modules>
+  </component>
+</project>

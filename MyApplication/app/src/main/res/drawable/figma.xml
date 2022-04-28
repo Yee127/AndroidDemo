@@ -1,0 +1,38 @@
+<!--&lt;!&ndash; Dock &ndash;&gt;-->
+<!--<View-->
+<!--    android:id="@+id/dock"-->
+<!--    android:layout_width="1703dp"-->
+<!--    android:layout_height="500.6dp"-->
+<!--    android:layout_alignParentRight="true"-->
+<!--    android:layout_marginRight="-55dp"-->
+<!--    android:layout_alignParentTop="true"-->
+<!--    android:layout_marginTop="181dp"-->
+<!--    android:background="@drawable/dock"-->
+<!--    android:elevation="18.47dp"-->
+<!--    />-->
+
+
+    <!-- drawable/dock.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="300dp"
+android:height="100dp"
+android:viewportWidth="1703"
+android:viewportHeight="500.6"
+    >
+
+<group>
+
+    <clip-path
+        android:pathData="M131.234 0H1571.77C1644.24 0 1703 58.7555 1703 131.234V369.367C1703 441.846 1644.24 500.601 1571.77 500.601H131.234C58.7555 500.601 0 441.846 0 369.367V131.234C0 58.7555 58.7555 0 131.234 0Z"
+        />
+
+    <path
+        android:pathData="M0 0V500.601H1703V0"
+        android:fillColor="#80FFFFFF"
+        />
+
+</group>
+
+</vector>

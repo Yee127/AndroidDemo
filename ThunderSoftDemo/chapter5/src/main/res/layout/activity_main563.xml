@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginBottom="100dp"
+    tools:context=".demo563.MainActivity563">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/btn1"
+        android:layout_margin="5px"
+        android:textColor="@color/black"
+        android:background="@mipmap/img"
+        android:text="我是普通图片背景！"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/btn2"
+        android:layout_margin="5px"
+        android:textColor="@color/black"
+        android:background="@mipmap/green"
+        android:text="我是9-Patch图片背景！"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/btn3"
+        android:layout_margin="5px"
+        android:background="@drawable/img_g_r"
+        android:textColor="@color/black"
+        android:text="我是9-Patch图片背景,点击变色！！"/>
+
+</LinearLayout>

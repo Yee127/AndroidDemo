@@ -1,0 +1,29 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ThunderSoftDemo"
+include ':app'
+include ':imgbuttondemo'
+include ':listviewdemo'
+include ':logindemo'
+include ':progress_bar_demo'
+
+include ':slideshowdemo'
+include ':dialogboxdemo'
+include ':iconlistdialog'
+include ':demo3_2_4_activity'
+include ':demo_3_3_3'
+include ':demo3_3_4'
+include ':eg3_7_fragment'
+include ':demo_417_intent'
+include ':chapter5'
+
+include ':chapter6'
+
+include ':chapter7'
+include ':chapter8'

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.290625" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.44351851851851853" />
+        <entry key="chapter8/src/main/res/drawable/btn.xml" value="0.3435185185185185" />
+        <entry key="chapter8/src/main/res/layout/activity_main825.xml" value="0.2796296296296296" />
+        <entry key="chapter8/src/main/res/layout/activity_messenger_main.xml" value="0.20677083333333332" />
+        <entry key="logindemo/src/main/res/drawable/btn.xml" value="0.49846782431052095" />
+        <entry key="logindemo/src/main/res/drawable/btn_p.xml" value="0.3567708333333333" />
+        <entry key="logindemo/src/main/res/drawable/btn_s.xml" value="0.49846782431052095" />
+        <entry key="logindemo/src/main/res/drawable/cus.xml" value="0.49846782431052095" />
+        <entry key="logindemo/src/main/res/drawable/edittext_border.xml" value="0.44351851851851853" />
+        <entry key="logindemo/src/main/res/drawable/edittext_border_scan.xml" value="0.44351851851851853" />
+        <entry key="logindemo/src/main/res/drawable/figma.xml" value="0.44351851851851853" />
+        <entry key="logindemo/src/main/res/drawable/gradient.xml" value="0.49846782431052095" />
+        <entry key="logindemo/src/main/res/drawable/gradient_par.xml" value="0.49846782431052095" />
+        <entry key="logindemo/src/main/res/drawable/ic_launcher_background.xml" value="0.44351851851851853" />
+        <entry key="logindemo/src/main/res/drawable/progress_scale.xml" value="0.44351851851851853" />
+        <entry key="logindemo/src/main/res/layout/activity_eighth_item_main.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_fifth_item.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_main.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_main_interface.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_second_item.xml" value="0.4648148148148148" />
+        <entry key="logindemo/src/main/res/layout/activity_setting_details.xml" value="0.4648148148148148" />
+        <entry key="logindemo/src/main/res/layout/activity_seventh_item.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_sixth_item.xml" value="0.48802083333333335" />
+        <entry key="logindemo/src/main/res/layout/activity_test_main.xml" value="0.2962962962962963" />
+        <entry key="logindemo/src/main/res/layout/cache_item.xml" value="0.625" />
+        <entry key="logindemo/src/main/res/layout/imgitems.xml" value="0.4648148148148148" />
+        <entry key="logindemo/src/main/res/layout/item.xml" value="0.39537037037037037" />
+        <entry key="logindemo/src/main/res/layout/item_scan.xml" value="0.4583333333333333" />
+        <entry key="logindemo/src/main/res/layout/right_fragment_show_details.xml" value="0.4648148148148148" />
+        <entry key="logindemo/src/main/res/layout/setting_items.xml" value="0.39537037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

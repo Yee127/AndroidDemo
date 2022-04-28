@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="16" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chapter5" />
+            <option value="$PROJECT_DIR$/chapter6" />
+            <option value="$PROJECT_DIR$/chapter7" />
+            <option value="$PROJECT_DIR$/chapter8" />
+            <option value="$PROJECT_DIR$/demo3_2_4_activity" />
+            <option value="$PROJECT_DIR$/demo3_3_4" />
+            <option value="$PROJECT_DIR$/demo_3_3_3" />
+            <option value="$PROJECT_DIR$/demo_417_intent" />
+            <option value="$PROJECT_DIR$/dialogboxdemo" />
+            <option value="$PROJECT_DIR$/eg3_7_fragment" />
+            <option value="$PROJECT_DIR$/iconlistdialog" />
+            <option value="$PROJECT_DIR$/imgbuttondemo" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/logindemo" />
+            <option value="$PROJECT_DIR$/progress_bar_demo" />
+            <option value="$PROJECT_DIR$/slideshowdemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

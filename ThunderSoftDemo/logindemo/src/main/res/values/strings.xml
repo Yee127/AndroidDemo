@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LoginDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainInterface">The Main Interface</string>
+
+
+    <string name="settingTitle">Setting</string>
+    <string name="net">Cellular Network</string>
+    <string name="wifi">WLAN</string>
+    <string name="air">Airplane Mode</string>
+    <string name="more">More Setting</string>
+    <string name="privacy">Privacy Of User</string>
+    <string name="light">Intensity Control</string>
+    <string name="file">Description</string>
+    <string name="system">System Info</string>
+    <string name="scan">Scan Files</string>
+    <string name="music">Music🎵</string>
+    <string name="download">Downloading</string>
+    <string name="Garbage">Garbage file scanning</string>
+    <string name="StartScanning">Start Scanning</string>
+    <string name="StopScanning">Stop Scanning</string>
+    <string name="cleaned">Remove All</string>
+    <string name="memory">Remaining Memory</string>
+    <string name="check_memory">Query Remaining Memory</string>
+
+
+</resources>

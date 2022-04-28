@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">注册</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">哈喽</string>
+    <string name="mainInterface">主界面</string>
+    <string name="settingTitle">设置</string>
+    <string name="net">蜂窝网络</string>
+    <string name="wifi">无线局域网</string>
+    <string name="air">飞行模式</string>
+    <string name="more">更多设置</string>
+    <string name="privacy">用户隐私</string>
+    <string name="light">亮度调节</string>
+    <string name="file">描述文件</string>
+    <string name="system">系统信息</string>
+    <string name="scan">扫描文件</string>
+    <string name="music">音乐🎵</string>
+    <string name="download">正在下载</string>
+    <string name="Garbage">垃圾扫描</string>
+    <string name="StartScanning">开 始 扫 描</string>
+    <string name="StopScanning">停 止 扫 描</string>
+    <string name="cleaned">一 键 清 除</string>
+    <string name="memory">剩余内存</string>
+    <string name="check_memory">查询当前剩余内存</string>
+</resources>

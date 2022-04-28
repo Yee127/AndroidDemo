@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!--        <variable-->
+        <!--            name="songModel"-->
+        <!--            type="com.example.myapplication.model.SongModel" />-->
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gradient_color"
+        tools:context=".ui.local_music.LocalMusicFragment"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_music"
+            android:layout_width="match_parent"
+            android:layout_height="578dp"
+            android:layout_weight="1" />
+
+        <include
+            android:background="#00FFFFFF"
+            android:id="@+id/dock_player"
+            layout="@layout/dock_player"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </LinearLayout>
+</layout>
